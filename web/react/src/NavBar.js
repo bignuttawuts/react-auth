@@ -1,13 +1,42 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-export default () => (
-  <ul className="navbar">
-    <li>
-      <Link to="/">Home</Link>
-    </li>
-    <li>
-      <Link to="/about">About</Link>
-    </li>
-  </ul>
-);
+class NavBar extends Component {
+  render() {
+    return (
+      <nav
+        className="navbar is-dark is-fixed-top"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="container">
+          <div className="navbar-brand">
+            <a className="navbar-item title is-4" href="#">
+              React Auth
+            </a>
+          </div>
+          <div className="navbar-menu">
+            <div className="navbar-start">
+              <a className="navbar-item">Home</a>
+            </div>
+
+            <div className="navbar-end">
+              <div className="navbar-item">
+                <div className="buttons">
+                  <Link className="button is-primary" to="/register">
+                    <strong>Sign up</strong>
+                  </Link>
+                  <Link className="button is-light" to="/login">
+                    <strong>Log in</strong>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    );
+  }
+}
+
+export default NavBar;
