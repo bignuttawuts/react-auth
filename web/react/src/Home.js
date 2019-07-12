@@ -20,9 +20,21 @@ class Home extends Component {
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>1</td>
+                  <td>Keaw</td>
+                  <td>A</td>
+                  <td>keaw@mail.com</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>John</td>
+                  <td>Doe</td>
+                  <td>john.doe@mail.com</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Chai</td>
+                  <td>R</td>
+                  <td>chai.r@mail.com</td>
                 </tr>
               </tbody>
             </table>

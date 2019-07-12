@@ -23,7 +23,9 @@ class Login extends Component {
                 </div>
                 <div class="field">
                   <div class="control">
-                    <button class="button is-link">Sign in</button>
+                    <button class="button is-primary is-fullwidth">
+                      Sign in
+                    </button>
                   </div>
                 </div>
               </div>

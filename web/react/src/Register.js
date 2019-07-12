@@ -51,7 +51,9 @@ class Register extends Component {
                 </div>
                 <div class="field">
                   <div class="control">
-                    <button class="button is-link">Sign up</button>
+                    <button class="button is-primary is-fullwidth">
+                      Sign up
+                    </button>
                   </div>
                 </div>
               </div>
