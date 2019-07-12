@@ -5,10 +5,20 @@ class Register extends Component {
     return (
       <div className="container">
         <div className="columns">
-          <div className="column is-4 is-offset-8">
+          <div className="column is-8">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">Welcome to react auth project...</h1>
+                <h2 class="subtitle">
+                  Just a proof of concept React + Springboot authentication by
+                  OAuth.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className="column is-4">
             <div className="card">
               <div className="card-content">
-                <h1 className="title">Register</h1>
                 <div className="field">
                   <label className="label">Firstname</label>
                   <div className="control">

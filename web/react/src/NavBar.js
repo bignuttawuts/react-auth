@@ -11,13 +11,15 @@ class NavBar extends Component {
       >
         <div class="container">
           <div className="navbar-brand">
-            <a className="navbar-item title is-4" href="#">
+            <Link className="navbar-item title is-4" to="/">
               React Auth
-            </a>
+            </Link>
           </div>
           <div className="navbar-menu">
             <div className="navbar-start">
-              <a className="navbar-item">Home</a>
+              <Link className="navbar-item" to="/">
+                Home
+              </Link>
             </div>
 
             <div className="navbar-end">
@@ -27,7 +29,10 @@ class NavBar extends Component {
                     <strong>Sign up</strong>
                   </Link>
                   <Link className="button is-light" to="/login">
-                    <strong>Log in</strong>
+                    <strong>Sign in</strong>
+                  </Link>
+                  <Link className="button is-light" to="/login">
+                    <strong>Sign out</strong>
                   </Link>
                 </div>
               </div>
